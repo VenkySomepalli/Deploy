@@ -39,7 +39,7 @@ data = pd.DataFrame(result, columns = ['s.no', 'Institute', 'Subject', 'Location
 
 ## or use my computor to load the data set.
 import pandas as pd
-data = pd.read_csv("C:\\Users\\venki\\OneDrive\\Desktop\Datascience360\\VS-Deploy-11-07\\MOCK_DATA.csv")
+data = pd.read_csv("C:\\Users\\venki\\OneDrive\\Desktop\\Datascience360\\VS-Deploy-11-07\\MOCK_DATA.csv")
 
 data['Course_level'].value_counts()
 
