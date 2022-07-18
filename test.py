@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 15 07:35:32 2022
 
-@author: venki
+@author: venki  
 """
 import pickle
 import streamlit as st
@@ -10,9 +10,9 @@ import pandas as pd
 # loading the trained model
 #df = pd.read_csv("/home/venky/Desktop/Datascience_360/Real_Project_costprediction/VS-Edtech_CourseCost_Model-Deployment/data.csv")
 #pickle_in = open("C:\\Users\\venki\\OneDrive\\Desktop\\Datascience360\\VS-Deploy-11-07\\data_model.pkl", "rb") 
-pickle_in = open("data_model.pkl", "rb") 
-model = pickle.load(pickle_in)
- 
+#pickle_in = open("data_model.pkl", "rb") 
+#model = pickle.load(pickle_in)
+model = pickle.load(open("data_model.pkl", "rb"))
 @st.cache()
   
 # defining the function which will make the prediction using the data which the user inputs 
