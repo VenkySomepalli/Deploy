@@ -179,7 +179,7 @@ def main():
        result = prediction(Institute,Subject,Location, Trainer_Qualification, Trainer_experiance, Online_classes, Offline_classes, Course_hours,
                           Course_level,Course_rating,Rental_permises, Trainer_slary,Maintaince_cost,Non_teaching_staff_salary, Placements)
        
-       st.success(f'The predicted price of the course is {result[0]:.2f} INR(per hour)')
+       st.success(f'The predicted price of the course is {result[0]:.0f} INR(per hour)')
     
      
 if __name__=='__main__': 
