@@ -7,6 +7,7 @@ Created on Fri Jul 15 07:35:32 2022
 import pickle
 import streamlit as st
 import pandas as pd
+import scikit-learn
 # loading the trained model
 #df = pd.read_csv("/home/venky/Desktop/Datascience_360/Real_Project_costprediction/VS-Edtech_CourseCost_Model-Deployment/data.csv")
 #pickle_in = open("C:\\Users\\venki\\OneDrive\\Desktop\\Datascience360\\VS-Deploy-11-07\\data_model.pkl", "rb") 
